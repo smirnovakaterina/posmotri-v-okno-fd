@@ -87,6 +87,7 @@ fieldset {
 .search-form__fieldset-title {
   font-size: 18px;
   font-weight: 400;
+  padding-bottom: 2px;
 }
 
 .search-form__label {
@@ -94,6 +95,10 @@ fieldset {
   flex-direction: row;
   align-items: center;
   gap: 5px;
+}
+
+.search-form__textfield:focus {
+  outline: none;
 }
 
 .search-form__label:has(:focus-visible) {
@@ -111,7 +116,8 @@ fieldset {
   background-color: transparent;
   appearance: none;
   min-width: 225px;
-  margin-top: 6px;
+  height: 27px;
+  margin: 2px 0 3px 0px;
   padding-left: 0;
 }
 
@@ -147,7 +153,7 @@ fieldset {
   opacity: 1;
 }
 
-.search-form__checkbox-list .search-form__label-text:hover {
+.search-form__label-text:hover {
   text-decoration: underline;
   cursor: pointer;
 }
@@ -183,7 +189,7 @@ fieldset {
 
 .button:focus-visible {
   outline: solid 1px #fff;
-  outline-offset: 2px;
+  outline-offset: 1px;
 }
 
 .search-form__submit-button {
@@ -302,6 +308,7 @@ ol {
   width: 100%;
   padding: 7px 140px;
   margin-bottom: 2px;
+  margin-left: 2px;
 }
 
 /* Кастомный скроллбар */

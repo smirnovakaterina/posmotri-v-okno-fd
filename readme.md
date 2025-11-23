@@ -1,1 +1,1 @@
-https://github.com/smirnovakaterina/posmotri-v-okno-fd
+https://github.com/smirnovakaterina/posmotri-v-okno-fd/tree/main

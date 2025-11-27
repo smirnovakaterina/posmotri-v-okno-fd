@@ -218,7 +218,7 @@ fieldset {
 .content__list-container {
   display: flex;
   flex-direction: column;
-  max-height: 298px;
+  height: 298px;
   overflow-y: auto;
   gap: 30px;
   position: relative;
@@ -305,6 +305,8 @@ fieldset {
   width: 100%;
   padding: 7px 140px;
 }
+
+
 
 /* Кастомный скроллбар */
 .custom-scrollbar::-webkit-scrollbar {
